@@ -16,9 +16,11 @@ For JSON formatting.
 [http://swixapp.com/api/v1/brand/?format=json](http://swixapp.com/api/v1/brand/?format=json)
 
 For XML formatting.
+
 '''html
 http://swixapp.com/api/v1/brand/?format=xml
 '''
+
 **API Key**
 
 For the read only API we are using API Key authentication. API Key authentication requires you to provide your *API Key* and *User Name* in the query string. 

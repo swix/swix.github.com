@@ -6,24 +6,24 @@ layout: default
 #Introduction to SWIX's REST Api
 SWIX's API allows you to access our system programmatically. Before you can acces the SWIX api you must first obtain an API key from us. 
 
-#Query String
-##Format
+##Query String
+**Format**
 You may use the *format* parameter in all of your calls to the API. 
 
 For JSON formatting.
 
-http://swixapp.com/api/v1/brand/?format=json
+[http://swixapp.com/api/v1/brand/?format=json](http://swixapp.com/api/v1/brand/?format=json)
 
 For XML formatting.
 
-http://swixapp.com/api/v1/brand/?format=xml
+[http://swixapp.com/api/v1/brand/?format=xml](http://swixapp.com/api/v1/brand/?format=xml)
 
-##API Key
+**API Key**
 For the read only API we are using API Key authentication. API Key authentication requires you to provide your *API Key* and *User Name* in the query string. 
 
 For example:
 
-[swixapp](http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey)
+[http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey](http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey)
 
 ##Brand Resources
 **GET /api/v1/brand/**
@@ -42,3 +42,9 @@ For example:
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
+###Additional Parameters
+**fields**
+
+**startdate**
+
+**enddate**

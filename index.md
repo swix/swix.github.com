@@ -17,9 +17,8 @@ For JSON formatting.
 
 For XML formatting.
 
-'''html
-http://swixapp.com/api/v1/brand/?format=xml
-'''
+
+[http://swixapp.com/api/v1/brand/?format=xml](http://swixapp.com/api/v1/brand/?format=xml)
 
 **API Key**
 

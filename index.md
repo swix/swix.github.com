@@ -11,9 +11,19 @@ SWIX's API allows you to access our system programmatically. Before you can acce
 You may use the *format* parameter in all of your calls to the API. 
 
 For JSON formatting.
+
 http://swixapp.com/api/v1/brand/?format=json
 
 For XML formatting.
+
+http://swixapp.com/api/v1/brand/?format=xml
+
+##API Key
+For the read only API we are using API Key authentication. API Key authentication requires you to provide your *API Key* and *User Name* in the query string. 
+
+For example:
+
+http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey
 
 ##Brand Resources
 **GET /api/v1/brand/**

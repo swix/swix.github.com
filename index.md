@@ -23,7 +23,7 @@ For the read only API we are using API Key authentication. API Key authenticatio
 
 For example:
 
-http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey
+[swixapp](http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey)
 
 ##Brand Resources
 **GET /api/v1/brand/**

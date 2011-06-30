@@ -30,6 +30,8 @@ For example:
 ##Brand Resources
 **GET /api/v1/brand/**
 
+*returns* - All data pertaining to any brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
+
 **GET /api/v1/brand/{brand_id}/**
 
 ##Event Resource

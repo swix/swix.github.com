@@ -11,12 +11,14 @@ layout: default
 **GET /api/v1/brand/{brand_id}/**
 
 ##Event Resource
-/api/v1/brand/{brand_id}/event/
+**GET /api/v1/brand/{brand_id}/event/**
 
-/api/v1/brand/{brand_id}/event/{event_id}/
+**GET /api/v1/brand/{brand_id}/event/{event_id}/**
 
-/api/v1/brand/{brand_id}/pod/
+##Pod Resource
+**GET /api/v1/brand/{brand_id}/pod/**
 
-/api/v1/brand/{brand_id}/pod/{pod_id}/
+**GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
 
-/api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/
+##Series Data Resource
+**GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**

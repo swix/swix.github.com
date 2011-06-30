@@ -4,6 +4,13 @@ layout: default
 ---
 
 #Introduction to SWIX's REST Api
+SWIX's API allows you to access our system programmatically. Before you can acces the SWIX api you must first obtain an API key from us. 
+
+#Query String
+##Format
+You may use the *format* parameter in all of your calls to the API. The valid values for the format parameter include:
+* json 
+* xml
 
 ##Brand Resources
 **GET /api/v1/brand/**

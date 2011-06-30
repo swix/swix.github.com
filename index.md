@@ -8,9 +8,12 @@ SWIX's API allows you to access our system programmatically. Before you can acce
 
 #Query String
 ##Format
-You may use the *format* parameter in all of your calls to the API. The valid values for the format parameter include:
-    * json 
-    * xml
+You may use the *format* parameter in all of your calls to the API. 
+
+For JSON formatting.
+http://swixapp.com/api/v1/brand/?format=json
+
+For XML formatting.
 
 ##Brand Resources
 **GET /api/v1/brand/**

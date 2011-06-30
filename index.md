@@ -6,3 +6,10 @@ layout: default
 #Introduction to SWIX's REST Api
 
 
+/api/v1/brand/
+/api/v1/brand/{brand_id}/
+/api/v1/brand/{brand_id}/event/
+/api/v1/brand/{brand_id}/event/{event_id}/
+/api/v1/brand/{brand_id}/pod/
+/api/v1/brand/{brand_id}/pod/{pod_id}/
+/api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/

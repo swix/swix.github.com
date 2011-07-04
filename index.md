@@ -70,12 +70,12 @@ CSS -  <br/>
 
 **Fields**
 
-name - 
-deleted - 
-created_at - 
-id - 
-brand - 
-date - 
+name - <br/>
+deleted - <br/>
+created_at - <br/>
+id - <br/>
+brand - <br/>
+date - <br/>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**
@@ -88,15 +88,15 @@ date -
 
 **Fields**
 
-name - 
-created_at - 
-uri - 
-updated_at - 
-id - 
-active - 
-type - 
-brand - 
-seriesdata - 
+name - <br/>
+created_at - <br/>
+uri - <br/>
+updated_at - <br/>
+id - <br/>
+active - <br/>
+type - <br/>
+brand - <br/>
+seriesdata - <br/>
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
@@ -107,11 +107,11 @@ seriesdata -
 
 *twitter*
 
-followers - 
-listed - 
-friends - 
-id - 
-statuses - 
+followers - <br/>
+listed - <br/>
+friends - <br/>
+id - <br/>
+statuses - <br/>
 
 ###Additional Parameters
 

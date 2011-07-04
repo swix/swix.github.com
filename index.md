@@ -39,7 +39,7 @@ Status Code 404 - The url does not exists. You would get this error if you misty
 
 Status Code 410 - You have requested a resource that does not exist. For instance, you are trying to retrieve /api/v1/brand/5987487 and brand with the id of 5987487 does not exist.
 
-Status Code 500 - Something went wrong on our end, and we were not able to get the resource you requested.
+Status Code 500 - Something went wrong on our end and we were not able to get the resource you requested.
 
 ##Brand Resources
 **GET /api/v1/brand/**
@@ -52,30 +52,45 @@ All the brands associated with your account. From here you will be able to get t
 
 *returns*
 
+The brand associated with the brand id provided. 
+
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**
 
 *returns*
 
+The events that are associated with the specified band id.
+
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**
 
 *returns*
+
+The specific event that is specified by the event id.
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**
 
 *returns*
 
+The pods which are associated with the specified brand id.
+
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
 
 *returns*
+
+The specific pod specified by the pod id parameter. 
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
 
 *returns*
 
+The series data that we have collected for that pod. See the additional parameter below to see more options. 
+
 ###Additional Parameters
+
+**graph**
+
 **fields**
 
 **startdate**

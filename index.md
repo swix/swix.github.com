@@ -137,10 +137,139 @@ friends - <br/>
 wallposts - <br/>
 
 *Blog*
+
 id - <br/>
 measured_at - <br/>
 updated_at - <br/>
+subscribers - <br/>
+reach - <br/>
+hits - <br/>
 
+*Google Analytics*
+
+newvisits - <br/>
+visits - <br/>
+pageviews - <br/>
+uniquepageviews - <br/>
+
+*Youtube Channel*
+
+subscribers - <br/>
+views - <br/>
+
+*Youtube Video*
+
+views - <br/>
+favorited - <br/>
+
+*Facebook Group*
+
+members - <br/>
+
+*Facebook App*
+
+monthly_active_users - <br/>
+weekly_active_users - <br/>
+daily_active_users - <br/>
+
+*Facebook Page*
+
+fans - <br/>
+
+*Flickr User*
+
+photos - <br/>
+groups - <br/>
+contacts - <br/>
+
+*Flickr Group*
+
+members - <br/>
+
+*Flickr Set*
+
+comments - <br/>
+
+*Identica Profile*
+
+followers - <br/>
+friends - <br/>
+statuses - <br/>
+
+*Linkedin Profiles*
+
+connections - <br/>
+recommendations - <br/>
+
+*Delicious Url*
+
+bookmark - <br/>
+
+*Stumbleupon Url*
+
+reviews - <br/>
+rating - <br/>
+
+*Mybloglog Community*
+
+members - <br/>
+
+*Upcoming Event*
+
+attending - <br/>
+interested - <br/>
+
+*Metacafe Channel*
+
+views - <br/>
+rank - <br/>
+subscribers - <br/>
+videos - <br/>
+
+*Metacafe Video*
+
+views - <br/>
+rank - <br/>
+comments - <br/>
+
+*Meetup Group*
+
+members - <br/>
+events - <br/>
+rating - <br/>
+
+*Meetup Event*
+
+rsvp - <br/>
+
+*Myspace Profile*
+
+friends - <br/>
+comments - <br/>
+
+*Vimeo Video*
+
+plays - <br/>
+comments - <br/>
+rating - <br/>
+
+*Vimeo Channel*
+
+subscribers - <br/>
+videos - <br/>
+
+*Vimeo Group*
+
+members - <br/>
+videos - <br/>
+topics - <br/>
+events - <br/>
+
+*Digg Url*
+
+diggs - <br/>
+storie - <br/>
+comments - <br/>
 
 
 ###Additional Parameters

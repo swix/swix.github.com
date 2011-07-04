@@ -43,10 +43,14 @@ Status Code 500 - Something went wrong on our end and we were not able to get th
 
 ##Brand Resources
 **GET /api/v1/brand/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format
 
 *returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
 
 **GET /api/v1/brand/{brand_id}/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format
 
 *returns* - The brand associated with the brand id provided. 
 
@@ -61,10 +65,14 @@ CSS -  <br/>
 
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format
 
 *returns* - The events that are associated with the specified band id.
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format
 
 *returns* - The specific event that is specified by the event id.
 
@@ -79,10 +87,14 @@ date - <br/>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format
 
 *returns* - The pods which are associated with the specified brand id.
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format
 
 *returns* - The specific pod specified by the pod id parameter. 
 
@@ -100,23 +112,36 @@ seriesdata - <br/>
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format, graph, startdate, enddate
 
 *returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
 
 **Fields**<br/>
 *twitter*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 followers - <br/>
 listed - <br/>
 friends - <br/>
-id - <br/>
 statuses - <br/>
 
 *facebook*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 friends - <br/>
 wallposts - <br/>
+
+*Blog*
 id - <br/>
+measured_at - <br/>
+updated_at - <br/>
+
+
 
 ###Additional Parameters
 

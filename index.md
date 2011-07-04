@@ -103,8 +103,7 @@ seriesdata - <br/>
 
 *returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
 
-**Fields**
-
+**Fields**<br/>
 *twitter*
 
 followers - <br/>
@@ -112,6 +111,12 @@ listed - <br/>
 friends - <br/>
 id - <br/>
 statuses - <br/>
+
+*facebook*
+
+friends - <br/>
+wallposts - <br/>
+id - <br/>
 
 ###Additional Parameters
 

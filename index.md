@@ -44,13 +44,16 @@ Status Code 500 - Something went wrong on our end and we were not able to get th
 ##Brand Resources
 **GET /api/v1/brand/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format
+Optional Parameters: format<br/>
+Response: List of Brands
 
 *returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
 
 **GET /api/v1/brand/{brand_id}/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format
+Optional Parameters: format<br/>
+Response: A Brand
+
 
 *returns* - The brand associated with the brand id provided. 
 
@@ -66,13 +69,15 @@ CSS -  <br/>
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format
+Optional Parameters: format<br/>
+Response: List of Events
 
 *returns* - The events that are associated with the specified band id.
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format
+Optional Parameters: format<br/>
+Response: An Event
 
 *returns* - The specific event that is specified by the event id.
 
@@ -88,13 +93,15 @@ date - The date of the event.<br/>
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format
+Optional Parameters: format<br/>
+Response: List of Pods
 
 *returns* - The pods which are associated with the specified brand id.
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format
+Optional Parameters: format<br/>
+Response: A Pod
 
 *returns* - The specific pod specified by the pod id parameter. 
 
@@ -113,7 +120,8 @@ seriesdata - the URI to the series data for this pod<br/>
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**<br/>
 Required Parameters: api_key, username<br/>
-Optional Parameters: format, graph, startdate, enddate
+Optional Parameters: format, graph, startdate, enddate<br/>
+Response: Series data for a given pod
 
 *returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
 

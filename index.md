@@ -42,13 +42,13 @@ Status Code 410 - You have requested a resource that does not exist. For instanc
 Status Code 500 - Something went wrong on our end and we were not able to get the resource you requested.
 
 ##Brand Resources
-**GET /api/v1/brand/**
+**GET /api/v1/brand/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format
 
 *returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
 
-**GET /api/v1/brand/{brand_id}/**
+**GET /api/v1/brand/{brand_id}/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format
 
@@ -64,13 +64,13 @@ logo - <br/>
 CSS -  <br/>
 
 ##Event Resource
-**GET /api/v1/brand/{brand_id}/event/**
+**GET /api/v1/brand/{brand_id}/event/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format
 
 *returns* - The events that are associated with the specified band id.
 
-**GET /api/v1/brand/{brand_id}/event/{event_id}/**
+**GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format
 
@@ -86,13 +86,13 @@ brand - <br/>
 date - <br/>
 
 ##Pod Resource
-**GET /api/v1/brand/{brand_id}/pod/**
+**GET /api/v1/brand/{brand_id}/pod/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format
 
 *returns* - The pods which are associated with the specified brand id.
 
-**GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
+**GET /api/v1/brand/{brand_id}/pod/{pod_id}/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format
 
@@ -111,7 +111,7 @@ brand - <br/>
 seriesdata - <br/>
 
 ##Series Data Resource
-**GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
+**GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format, graph, startdate, enddate
 

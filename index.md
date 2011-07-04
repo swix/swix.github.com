@@ -48,9 +48,16 @@ Status Code 500 - Something went wrong on our end and we were not able to get th
 
 **GET /api/v1/brand/{brand_id}/**
 
-*returns*
+*returns* - The brand associated with the brand id provided. 
 
-The brand associated with the brand id provided. 
+**Fields**
+
+account - The URI to the account that the brand belongs to.
+name - The name of the brand
+created_at - The date and time the band was created at, in the format of iso-8601 (2011-05-24T13:14:57)
+id - The id of the brand.
+logo - 
+CSS -  
 
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**
@@ -61,6 +68,15 @@ The brand associated with the brand id provided.
 
 *returns* - The specific event that is specified by the event id.
 
+**Fields**
+
+name - 
+deleted - 
+created_at - 
+id - 
+brand - 
+date - 
+
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**
 
@@ -68,14 +84,34 @@ The brand associated with the brand id provided.
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
 
-*returns*
+*returns* - The specific pod specified by the pod id parameter. 
 
-The specific pod specified by the pod id parameter. 
+**Fields**
+
+name - 
+created_at - 
+uri - 
+updated_at - 
+id - 
+active - 
+type - 
+brand - 
+seriesdata - 
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
 
 *returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
+
+**Fields**
+
+*twitter*
+
+followers - 
+listed - 
+friends - 
+id - 
+statuses - 
 
 ###Additional Parameters
 

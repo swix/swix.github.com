@@ -52,12 +52,12 @@ Status Code 500 - Something went wrong on our end and we were not able to get th
 
 **Fields**
 
-account - The URI to the account that the brand belongs to.
-name - The name of the brand
-created_at - The date and time the band was created at, in the format of iso-8601 (2011-05-24T13:14:57)
-id - The id of the brand.
-logo - 
-CSS -  
+account - The URI to the account that the brand belongs to.</br>
+name - The name of the brand</br>
+created_at - The date and time the band was created at, in the format of iso-8601 (2011-05-24T13:14:57)</br>
+id - The id of the brand.</br>
+logo - </br>
+CSS -  </br>
 
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**

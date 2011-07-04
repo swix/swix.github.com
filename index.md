@@ -44,9 +44,7 @@ Status Code 500 - Something went wrong on our end and we were not able to get th
 ##Brand Resources
 **GET /api/v1/brand/**
 
-*returns*
-
-All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
+*returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
 
 **GET /api/v1/brand/{brand_id}/**
 
@@ -57,22 +55,16 @@ The brand associated with the brand id provided.
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**
 
-*returns*
-
-The events that are associated with the specified band id.
+*returns* - The events that are associated with the specified band id.
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**
 
-*returns*
-
-The specific event that is specified by the event id.
+*returns* - The specific event that is specified by the event id.
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**
 
-*returns*
-
-The pods which are associated with the specified brand id.
+*returns* - The pods which are associated with the specified brand id.
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
 
@@ -83,9 +75,7 @@ The specific pod specified by the pod id parameter.
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
 
-*returns*
-
-The series data that we have collected for that pod. See the additional parameter below to see more options. 
+*returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
 
 ###Additional Parameters
 

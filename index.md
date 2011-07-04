@@ -29,7 +29,7 @@ For example:
 
 **Status Codes**
 
-In all the below requests we return status codes to indicate to you the outcome of your request. The general meaning of those status codes are as follows:
+In all of the resource below we return status codes to indicate to you the outcome of your request. The general meaning of those status codes are as follows:
 
 Status Code 200 - The resource you specified exists, we successfully retrieved the resource and have returned the results to you.
 
@@ -52,66 +52,28 @@ All the brands associated with your account. From here you will be able to get t
 
 *returns*
 
-
-Status Code 200 and the brand specified in {brand_id}.
-
-Status Code 410 if the brand does not exist.
-
-Status Code 401 if you do not have access to the resource.
-
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**
 
 *returns*
 
-Status Code 200 and the brand specified in {brand_id}.
-
-Status Code 410 if the brand does not exist.
-
-Status Code 401 if you do not have access to the resource.
-
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**
 
 *returns*
-
-Status Code 200 and the brand specified in {brand_id}.
-
-Status Code 410 if the brand does not exist.
-
-Status Code 401 if you do not have access to the resource.
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**
 
 *returns*
 
-Status Code 200 and the brand specified in {brand_id}.
-
-Status Code 410 if the brand does not exist.
-
-Status Code 401 if you do not have access to the resource.
-
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**
 
 *returns*
 
-Status Code 200 and the brand specified in {brand_id}.
-
-Status Code 410 if the brand does not exist.
-
-Status Code 401 if you do not have access to the resource.
-
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**
 
-
 *returns*
-
-Status Code 200 and the brand specified in {brand_id}.
-
-Status Code 410 if the brand does not exist.
-
-Status Code 401 if you do not have access to the resource.
 
 ###Additional Parameters
 **fields**

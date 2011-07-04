@@ -147,6 +147,9 @@ hits - <br/>
 
 *Google Analytics*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 newvisits - <br/>
 visits - <br/>
 pageviews - <br/>
@@ -154,73 +157,118 @@ uniquepageviews - <br/>
 
 *Youtube Channel*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 subscribers - <br/>
 views - <br/>
 
 *Youtube Video*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 views - <br/>
 favorited - <br/>
 
 *Facebook Group*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 members - <br/>
 
 *Facebook App*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 monthly_active_users - <br/>
 weekly_active_users - <br/>
 daily_active_users - <br/>
 
 *Facebook Page*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 fans - <br/>
 
 *Flickr User*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 photos - <br/>
 groups - <br/>
 contacts - <br/>
 
 *Flickr Group*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 members - <br/>
 
 *Flickr Set*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 comments - <br/>
 
 *Identica Profile*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 followers - <br/>
 friends - <br/>
 statuses - <br/>
 
 *Linkedin Profiles*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 connections - <br/>
 recommendations - <br/>
 
 *Delicious Url*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 bookmark - <br/>
 
 *Stumbleupon Url*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 reviews - <br/>
 rating - <br/>
 
 *Mybloglog Community*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 members - <br/>
 
 *Upcoming Event*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 attending - <br/>
 interested - <br/>
 
 *Metacafe Channel*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 views - <br/>
 rank - <br/>
 subscribers - <br/>
@@ -228,38 +276,59 @@ videos - <br/>
 
 *Metacafe Video*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 views - <br/>
 rank - <br/>
 comments - <br/>
 
 *Meetup Group*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 members - <br/>
 events - <br/>
 rating - <br/>
 
 *Meetup Event*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 rsvp - <br/>
 
 *Myspace Profile*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 friends - <br/>
 comments - <br/>
 
 *Vimeo Video*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 plays - <br/>
 comments - <br/>
 rating - <br/>
 
 *Vimeo Channel*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 subscribers - <br/>
 videos - <br/>
 
 *Vimeo Group*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 members - <br/>
 videos - <br/>
 topics - <br/>
@@ -267,6 +336,9 @@ events - <br/>
 
 *Digg Url*
 
+id - <br/>
+measured_at - <br/>
+updated_at - <br/>
 diggs - <br/>
 storie - <br/>
 comments - <br/>

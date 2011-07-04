@@ -54,17 +54,16 @@ Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
 Response: A Brand
 
-
 *returns* - The brand associated with the brand id provided. 
 
 **Fields**
 
 account - The URI to the account that the brand belongs to.<br/>
 name - The name of the brand.<br/>
-created_at - The date and time the band was created at, in the format of iso-8601 (2011-05-24T13:14:57)<br/>
+created_at - The date and time the band was created at, in the format of iso-8601 (2011-05-24T13:14:57).<br/>
 id - The id of the brand.<br/>
-logo - <br/>
-CSS -  <br/>
+logo - path to your logo.<br/>
+CSS -  path to your CSS.<br/>
 
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**<br/>
@@ -125,158 +124,160 @@ Response: Series data for a given pod
 
 *returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
 
+The data in the series data is pretty much a count, for that metric, on the day of measured_at. If you wish to know the exact time the metric was taken, you can use updated_at.
+
 **Fields**<br/>
 *twitter*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-followers - <br/>
-listed - <br/>
-friends - <br/>
-statuses - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+followers - Count of twitter followers.<br/>
+listed - Count of places you are listed<br/>
+friends - Count of friends.<br/>
+statuses - Count of statuses.<br/>
 
 *facebook*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-friends - <br/>
-wallposts - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+friends - Count of facebook friends.<br/>
+wallposts - Count of wallposts.<br/>
 
 *Blog*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-subscribers - <br/>
-reach - <br/>
-hits - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+subscribers - Count of subscribers to your blog.<br/>
+reach - You total reach.<br/>
+hits - Number of hits.<br/>
 
 *Google Analytics*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-newvisits - <br/>
-visits - <br/>
-pageviews - <br/>
-uniquepageviews - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+newvisits - Total number of new visits.<br/>
+visits - Total number of visits<br/>
+pageviews - Total number of page views.<br/>
+uniquepageviews - Total number of unique page views.<br/>
 
 *Youtube Channel*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-subscribers - <br/>
-views - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+subscribers - Total number of subscribers.<br/>
+views - Total number of views.<br/>
 
 *Youtube Video*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-views - <br/>
-favorited - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+views - Total number of views on your youtube video.<br/>
+favorited - Total number of times your video was favorited.<br/>
 
 *Facebook Group*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-members - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+members - Number of members in your facebook group.<br/>
 
 *Facebook App*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-monthly_active_users - <br/>
-weekly_active_users - <br/>
-daily_active_users - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+monthly_active_users - Total number of active monthly users for your app.<br/>
+weekly_active_users - Total number of active weekly users for your app.<br/>
+daily_active_users - Total number of active daily users for your app.<br/>
 
 *Facebook Page*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-fans - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+fans - Total number of facebook fans.<br/>
 
 *Flickr User*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-photos - <br/>
-groups - <br/>
-contacts - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+photos - Number of photos.<br/>
+groups - Number of groups.<br/>
+contacts - Number of contacts.<br/>
 
 *Flickr Group*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
 members - <br/>
 
 *Flickr Set*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-comments - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+comments - Number of comments.<br/>
 
 *Identica Profile*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-followers - <br/>
-friends - <br/>
-statuses - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+followers - Number of followers.<br/>
+friends - Number of friends.<br/>
+statuses - Number of statuses.<br/>
 
 *Linkedin Profiles*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-connections - <br/>
-recommendations - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+connections - Total number of connections.<br/>
+recommendations - Total number of recommendations.<br/>
 
 *Delicious Url*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-bookmark - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+bookmark - Number of bookmarks<br/>
 
 *Stumbleupon Url*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-reviews - <br/>
-rating - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+reviews - Number of reviews<br/>
+rating - Number of Ratings<br/>
 
 *Mybloglog Community*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-members - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+members - Number of members.<br/>
 
 *Upcoming Event*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
 attending - <br/>
 interested - <br/>
 
 *Metacafe Channel*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
 views - <br/>
 rank - <br/>
 subscribers - <br/>
@@ -284,72 +285,72 @@ videos - <br/>
 
 *Metacafe Video*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-views - <br/>
-rank - <br/>
-comments - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+views - Number of views.<br/>
+rank - Total rank.<br/>
+comments - Number of comments.<br/>
 
 *Meetup Group*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-members - <br/>
-events - <br/>
-rating - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+members - Number of members.<br/>
+events - Number of events.<br/>
+rating - Total rating.<br/>
 
 *Meetup Event*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-rsvp - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+rsvp - Number of RSVP.<br/>
 
 *Myspace Profile*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-friends - <br/>
-comments - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+friends - Number of friends.<br/>
+comments - Number of comments.<br/>
 
 *Vimeo Video*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-plays - <br/>
-comments - <br/>
-rating - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+plays - Number of times a video is played.<br/>
+comments - Number of comments.<br/>
+rating - Total rating.<br/>
 
 *Vimeo Channel*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-subscribers - <br/>
-videos - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+subscribers - Total number of subscribers.<br/>
+videos - Total videos.<br/>
 
 *Vimeo Group*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-members - <br/>
-videos - <br/>
-topics - <br/>
-events - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+members - Number of members.<br/>
+videos - Number of videos.<br/>
+topics - Number of topics.<br/>
+events - Number of events.<br/>
 
 *Digg Url*
 
-id - <br/>
-measured_at - <br/>
-updated_at - <br/>
-diggs - <br/>
-storie - <br/>
-comments - <br/>
+id - Series Data ID.<br/>
+measured_at - Date measured at.<br/>
+updated_at - Date and Time the data was updated at.<br/>
+diggs - Number of diggs.<br/>
+stories - Number of stories.<br/>
+comments - Number of comments.<br/>
 
 
 ###Additional Parameters

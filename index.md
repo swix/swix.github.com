@@ -57,7 +57,7 @@ Optional Parameters: format
 **Fields**
 
 account - The URI to the account that the brand belongs to.<br/>
-name - The name of the brand<br/>
+name - The name of the brand.<br/>
 created_at - The date and time the band was created at, in the format of iso-8601 (2011-05-24T13:14:57)<br/>
 id - The id of the brand.<br/>
 logo - <br/>
@@ -78,12 +78,12 @@ Optional Parameters: format
 
 **Fields**
 
-name - <br/>
-deleted - <br/>
-created_at - <br/>
-id - <br/>
-brand - <br/>
-date - <br/>
+name - Name of the event.<br/>
+deleted - Flag that indicates whether the event is deleted.<br/>
+created_at - Date the event was created.<br/>
+id - The id of the Event.<br/>
+brand - The brand the event belongs to.<br/>
+date - The date of the event.<br/>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>
@@ -100,15 +100,15 @@ Optional Parameters: format
 
 **Fields**
 
-name - <br/>
-created_at - <br/>
-uri - <br/>
-updated_at - <br/>
-id - <br/>
-active - <br/>
-type - <br/>
-brand - <br/>
-seriesdata - <br/>
+name - Pod name<br/>
+created_at - Date pod was created.<br/>
+uri - URI to the resource this pod uses.<br/>
+updated_at - Date pod was updated<br/>
+id - The id of the pod.<br/>
+active - Flag that tells you if this pod is active.<br/>
+type - This will indicate what type of pod this is. This will tell you which format seriesdata will be in.<br/>
+brand - The brand this pod belongs to.<br/>
+seriesdata - the URI to the series data for this pod<br/>
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**<br/>

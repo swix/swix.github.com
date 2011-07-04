@@ -35,9 +35,11 @@ Status Code 200 - The resource you specified exists, we successfully retrieved t
 
 Status Code 401 - You do not have access or authorization to access the resource you are requesting.
 
-Status Code 404 - The url does not exists. You would get this error if you mis-typed 'api/v1/brand/' and 'api/v1/barnd/'
+Status Code 404 - The url does not exists. You would get this error if you mistyped 'api/v1/brand/' as 'api/v1/barnd/'
 
 Status Code 410 - You have requested a resource that does not exist. For instance, you are trying to retrieve /api/v1/brand/5987487 and brand with the id of 5987487 does not exist.
+
+Status Code 500 - Something went wrong on our end, and we were not able to get the resource you requested.
 
 ##Brand Resources
 **GET /api/v1/brand/**

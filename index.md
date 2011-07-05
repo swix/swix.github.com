@@ -171,7 +171,8 @@ friends - Count of friends.<br/>
 statuses - Count of statuses.<br/>
 
 Example: <br/>
-This example gives you an idea of what to expect from twitter series data. However, all the others will be pretty much the same but with different field names.
+This example gives you an idea of what to expect from twitter series data. However, all the others will be pretty much the same but with different field names.<br/>
+Also, please note there are more examples below that demonstrate the use the optional query string parameters.
 /api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey<br/>
 
 <script src="https://gist.github.com/1065305.js"> </script>

@@ -76,8 +76,7 @@ pod - List of pods that belong to the brand<br/>
 Example:<br/>
 /api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```json
-```
+<script src="https://gist.github.com/1065046.js"> </script>
 
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**<br/>

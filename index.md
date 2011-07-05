@@ -48,10 +48,12 @@ Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
 Response: List of Brands
 
+*returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
+
 Example:<br/>
 /api/v1/brand/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```json<br/>
+```json
 {
    "meta":{
       "limit":20,
@@ -167,8 +169,6 @@ Example:<br/>
 }
 ```
 
-*returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
-
 **GET /api/v1/brand/{brand_id}/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
@@ -187,6 +187,12 @@ CSS -  path to your CSS.<br/>
 event - List of events that belong to the brand<br/>
 pod - List of pods that belong to the brand<br/>
 
+Example:<br/>
+/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey<br/>
+
+```json
+```
+
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**<br/>
 Required Parameters: api_key, username<br/>
@@ -194,6 +200,12 @@ Optional Parameters: format<br/>
 Response: List of Events
 
 *returns* - The events that are associated with the specified band id.
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -211,6 +223,12 @@ id - The id of the Event.<br/>
 brand - The brand the event belongs to.<br/>
 date - The date of the event.<br/>
 
+Example:<br/>
+<br/>
+
+```json
+```
+
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>
 Required Parameters: api_key, username<br/>
@@ -218,6 +236,12 @@ Optional Parameters: format<br/>
 Response: List of Pods
 
 *returns* - The pods which are associated with the specified brand id.
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -259,6 +283,12 @@ listed - Count of places you are listed<br/>
 friends - Count of friends.<br/>
 statuses - Count of statuses.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *facebook*
 
 id - Series Data ID.<br/>
@@ -266,6 +296,12 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 friends - Count of facebook friends.<br/>
 wallposts - Count of wallposts.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Blog*
 
@@ -275,6 +311,12 @@ updated_at - Date and Time the data was updated at.<br/>
 subscribers - Count of subscribers to your blog.<br/>
 reach - You total reach.<br/>
 hits - Number of hits.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Google Analytics*
 
@@ -286,6 +328,12 @@ visits - Total number of visits<br/>
 pageviews - Total number of page views.<br/>
 uniquepageviews - Total number of unique page views.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Youtube Channel*
 
 id - Series Data ID.<br/>
@@ -293,6 +341,12 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 subscribers - Total number of subscribers.<br/>
 views - Total number of views.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Youtube Video*
 
@@ -302,12 +356,24 @@ updated_at - Date and Time the data was updated at.<br/>
 views - Total number of views on your youtube video.<br/>
 favorited - Total number of times your video was favorited.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Facebook Group*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 members - Number of members in your facebook group.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Facebook App*
 
@@ -318,12 +384,24 @@ monthly_active_users - Total number of active monthly users for your app.<br/>
 weekly_active_users - Total number of active weekly users for your app.<br/>
 daily_active_users - Total number of active daily users for your app.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Facebook Page*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 fans - Total number of facebook fans.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Flickr User*
 
@@ -334,6 +412,12 @@ photos - Number of photos.<br/>
 groups - Number of groups.<br/>
 contacts - Number of contacts.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Flickr Group*
 
 id - Series Data ID.<br/>
@@ -341,12 +425,24 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 members - <br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Flickr Set*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 comments - Number of comments.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Identica Profile*
 
@@ -357,6 +453,12 @@ followers - Number of followers.<br/>
 friends - Number of friends.<br/>
 statuses - Number of statuses.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Linkedin Profiles*
 
 id - Series Data ID.<br/>
@@ -365,12 +467,24 @@ updated_at - Date and Time the data was updated at.<br/>
 connections - Total number of connections.<br/>
 recommendations - Total number of recommendations.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Delicious Url*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 bookmark - Number of bookmarks<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Stumbleupon Url*
 
@@ -380,12 +494,24 @@ updated_at - Date and Time the data was updated at.<br/>
 reviews - Number of reviews<br/>
 rating - Number of Ratings<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Mybloglog Community*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 members - Number of members.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Upcoming Event*
 
@@ -394,6 +520,12 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 attending - <br/>
 interested - <br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Metacafe Channel*
 
@@ -405,6 +537,12 @@ rank - <br/>
 subscribers - <br/>
 videos - <br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Metacafe Video*
 
 id - Series Data ID.<br/>
@@ -413,6 +551,12 @@ updated_at - Date and Time the data was updated at.<br/>
 views - Number of views.<br/>
 rank - Total rank.<br/>
 comments - Number of comments.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Meetup Group*
 
@@ -423,12 +567,24 @@ members - Number of members.<br/>
 events - Number of events.<br/>
 rating - Total rating.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Meetup Event*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 rsvp - Number of RSVP.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Myspace Profile*
 
@@ -437,6 +593,12 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 friends - Number of friends.<br/>
 comments - Number of comments.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Vimeo Video*
 
@@ -447,6 +609,12 @@ plays - Number of times a video is played.<br/>
 comments - Number of comments.<br/>
 rating - Total rating.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Vimeo Channel*
 
 id - Series Data ID.<br/>
@@ -454,6 +622,12 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 subscribers - Total number of subscribers.<br/>
 videos - Total videos.<br/>
+
+Example: <br/>
+<br/>
+
+```json
+```
 
 *Vimeo Group*
 
@@ -465,6 +639,12 @@ videos - Number of videos.<br/>
 topics - Number of topics.<br/>
 events - Number of events.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 *Digg Url*
 
 id - Series Data ID.<br/>
@@ -474,13 +654,23 @@ diggs - Number of diggs.<br/>
 stories - Number of stories.<br/>
 comments - Number of comments.<br/>
 
+Example: <br/>
+<br/>
+
+```json
+```
+
 
 ###Additional Parameters
 
 **graph**<br/>
 Available Values: highcharts
 
+Example: <br/>
+<br/>
 
+```json
+```
 
 **fields**
 

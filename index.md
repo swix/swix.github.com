@@ -423,7 +423,7 @@ Only followers and friends:<br/>
 
 **startdate**
 
-This query string parameter allows you to specify the start date for the date range used to retrieve the seriesdata.
+This query string parameter allows you to specify the start date for the date range used to retrieve the seriesdata. The format of the date needs to be YYYY-MM-DD.
 
 Example:<br/>
 /api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&startdate=2011-05-15<br/>
@@ -431,5 +431,15 @@ Example:<br/>
 
 **enddate**
 
-This query string parameter allows you to specify the end date for the date range used to retrieve the seriesdata.<br/>
+This query string parameter allows you to specify the end date for the date range used to retrieve the seriesdata. The format of the date needs to be YYYY-MM-DD.
+
+Example:<br/>
+api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-20<br/>
 <script src="https://gist.github.com/1065683.js"> </script>
+
+**Putting it together**
+
+
+
+/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-31&startdate=2011-05-01&graph=highcharts&fields=followers<br/>
+<script src="https://gist.github.com/1065749.js"> </script>

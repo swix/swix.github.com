@@ -155,7 +155,7 @@ Required Parameters: api_key, username<br/>
 Optional Parameters: format, graph, startdate, enddate<br/>
 Response: Series data for a given pod
 
-*returns* - The series data that we have collected for that pod. See the additional parameter below to see more options. 
+*returns* - The series data that we have collected for that pod in the last 90 days. See the additional parameter below to see more options (like getting more than 90 days worth of data). 
 
 The data in the series data is pretty much a count, for that metric, on the day of measured_at. If you wish to know the exact time the metric was taken, you can use updated_at.
 
@@ -423,4 +423,13 @@ Only followers and friends:<br/>
 
 **startdate**
 
+This query string parameter allows you to specify the start date for the date range used to retrieve the seriesdata.
+
+Example:<br/>
+/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&startdate=2011-05-15<br/>
+<script src="https://gist.github.com/1065659.js"> </script>
+
 **enddate**
+
+This query string parameter allows you to specify the end date for the date range used to retrieve the seriesdata.<br/>
+<script src="https://gist.github.com/1065683.js"> </script>

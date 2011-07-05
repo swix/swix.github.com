@@ -53,6 +53,8 @@ Response: List of Brands
 Example:<br/>
 /api/v1/brand/?format=json&username=your_username&api_key=your_apikey<br/>
 
+<script src="https://gist.github.com/1065033.js"> </script>
+
 ```json
 {
    "meta":{

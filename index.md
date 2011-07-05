@@ -28,7 +28,7 @@ For example:
 
 [http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey](http://swixapp.com/api/v1/brand/?format=json&username=fakeusername&api_key=fakeapikey)
 
-**Status Codes**
+##Status Codes
 
 In all of the resource below we return status codes to indicate to you the outcome of your request. The general meaning of those status codes are as follows:
 
@@ -171,10 +171,10 @@ friends - Count of friends.<br/>
 statuses - Count of statuses.<br/>
 
 Example: <br/>
-<br/>
+This example gives you an idea of what to expect from twitter series data. However, all the others will be pretty much the same but with different field names.
+/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```json
-```
+<script src="https://gist.github.com/1065305.js"> </script>
 
 *facebook*
 
@@ -184,12 +184,6 @@ updated_at - Date and Time the data was updated at.<br/>
 friends - Count of facebook friends.<br/>
 wallposts - Count of wallposts.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Blog*
 
 id - Series Data ID.<br/>
@@ -198,12 +192,6 @@ updated_at - Date and Time the data was updated at.<br/>
 subscribers - Count of subscribers to your blog.<br/>
 reach - You total reach.<br/>
 hits - Number of hits.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Google Analytics*
 
@@ -215,12 +203,6 @@ visits - Total number of visits<br/>
 pageviews - Total number of page views.<br/>
 uniquepageviews - Total number of unique page views.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Youtube Channel*
 
 id - Series Data ID.<br/>
@@ -228,12 +210,6 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 subscribers - Total number of subscribers.<br/>
 views - Total number of views.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Youtube Video*
 
@@ -243,24 +219,12 @@ updated_at - Date and Time the data was updated at.<br/>
 views - Total number of views on your youtube video.<br/>
 favorited - Total number of times your video was favorited.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Facebook Group*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 members - Number of members in your facebook group.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Facebook App*
 
@@ -271,24 +235,12 @@ monthly_active_users - Total number of active monthly users for your app.<br/>
 weekly_active_users - Total number of active weekly users for your app.<br/>
 daily_active_users - Total number of active daily users for your app.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Facebook Page*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 fans - Total number of facebook fans.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Flickr User*
 
@@ -299,12 +251,6 @@ photos - Number of photos.<br/>
 groups - Number of groups.<br/>
 contacts - Number of contacts.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Flickr Group*
 
 id - Series Data ID.<br/>
@@ -312,24 +258,12 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 members - <br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Flickr Set*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 comments - Number of comments.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Identica Profile*
 
@@ -340,12 +274,6 @@ followers - Number of followers.<br/>
 friends - Number of friends.<br/>
 statuses - Number of statuses.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Linkedin Profiles*
 
 id - Series Data ID.<br/>
@@ -354,24 +282,12 @@ updated_at - Date and Time the data was updated at.<br/>
 connections - Total number of connections.<br/>
 recommendations - Total number of recommendations.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Delicious Url*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 bookmark - Number of bookmarks<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Stumbleupon Url*
 
@@ -381,24 +297,12 @@ updated_at - Date and Time the data was updated at.<br/>
 reviews - Number of reviews<br/>
 rating - Number of Ratings<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Mybloglog Community*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 members - Number of members.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Upcoming Event*
 
@@ -407,12 +311,6 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 attending - <br/>
 interested - <br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Metacafe Channel*
 
@@ -424,12 +322,6 @@ rank - <br/>
 subscribers - <br/>
 videos - <br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Metacafe Video*
 
 id - Series Data ID.<br/>
@@ -438,12 +330,6 @@ updated_at - Date and Time the data was updated at.<br/>
 views - Number of views.<br/>
 rank - Total rank.<br/>
 comments - Number of comments.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Meetup Group*
 
@@ -454,24 +340,12 @@ members - Number of members.<br/>
 events - Number of events.<br/>
 rating - Total rating.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Meetup Event*
 
 id - Series Data ID.<br/>
 measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 rsvp - Number of RSVP.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Myspace Profile*
 
@@ -480,12 +354,6 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 friends - Number of friends.<br/>
 comments - Number of comments.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Vimeo Video*
 
@@ -496,12 +364,6 @@ plays - Number of times a video is played.<br/>
 comments - Number of comments.<br/>
 rating - Total rating.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Vimeo Channel*
 
 id - Series Data ID.<br/>
@@ -509,12 +371,6 @@ measured_at - Date measured at.<br/>
 updated_at - Date and Time the data was updated at.<br/>
 subscribers - Total number of subscribers.<br/>
 videos - Total videos.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
 
 *Vimeo Group*
 
@@ -526,12 +382,6 @@ videos - Number of videos.<br/>
 topics - Number of topics.<br/>
 events - Number of events.<br/>
 
-Example: <br/>
-<br/>
-
-```json
-```
-
 *Digg Url*
 
 id - Series Data ID.<br/>
@@ -540,13 +390,6 @@ updated_at - Date and Time the data was updated at.<br/>
 diggs - Number of diggs.<br/>
 stories - Number of stories.<br/>
 comments - Number of comments.<br/>
-
-Example: <br/>
-<br/>
-
-```json
-```
-
 
 ###Additional Parameters
 

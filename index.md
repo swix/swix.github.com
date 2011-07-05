@@ -397,11 +397,16 @@ comments - Number of comments.<br/>
 **graph**<br/>
 Available Values: highcharts
 
-Example: <br/>
-<br/>
+This parameter allows you to specify a special format for graphing libraries. At this point in time we only support Highcharts. Highcharts is a javascript library that creates awesome graphs, and with our javascript library it's super easy.
 
-```json
-```
+For more information checkout Highchart's website http://www.highcharts.com/.
+
+Notes about the format:
+We return the JSON that you would assign to the "data" portion of the graph options. In the data field, we have a list of values, [Date, Count]. The date field is stored in epoch format, the second field is the metric specified in the "name" fields.
+
+Example:<br/>
+/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&graph=highcharts<br/>
+<script src="https://gist.github.com/1065423.js"> </script>
 
 **fields**
 

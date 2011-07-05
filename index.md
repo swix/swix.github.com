@@ -51,14 +51,120 @@ Response: List of Brands
 Example:<br/>
 /api/v1/brand/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```json
-{
-    "objects": [
-        {
-            "hello":"world",
-        }
-    ]
-}
+```json<br/>
+{<br/>
+   "meta":{<br/>
+      "limit":20,<br/>
+      "next":null,<br/>
+      "offset":0,<br/>
+      "previous":null,<br/>
+      "total_count":4<br/>
+   },<br/>
+   "objects":[<br/>
+      {<br/>
+         "account":"/api/v1/account/19/",<br/>
+         "created_at":"2011-05-24T13:14:57",<br/>
+         "css":null,<br/>
+         "event":[<br/>
+            {<br/>
+               "brand":"/api/v1/brand/55/",<br/>
+               "created_at":"2011-05-31T08:37:16",<br/>
+               "date":"2011-06-09T00:00:00",<br/>
+               "deleted":false,<br/>
+               "id":"12",<br/>
+               "name":"Epic event"<br/>
+            },<br/>
+            {<br/>
+               "brand":"/api/v1/brand/55/",<br/>
+               "created_at":"2011-05-31T08:37:33",<br/>
+               "date":"2011-06-07T00:00:00",<br/>
+               "deleted":false,<br/>
+               "id":"13",<br/>
+               "name":"rguiriuhgreiouggreiugreiu"<br/>
+            },<br/>
+            {<br/>
+               "brand":"/api/v1/brand/55/",<br/>
+               "created_at":"2011-06-29T11:25:57",<br/>
+               "date":"2011-06-01T00:00:00",<br/>
+               "deleted":false,<br/>
+               "id":"27",<br/>
+               "name":"berbreberbe"<br/>
+            }<br/>
+         ],<br/>
+         "id":"55",<br/>
+         "logo":null,<br/>
+         "name":"Default Brand",<br/>
+         "pod":[<br/>
+            {<br/>
+               "active":true,<br/>
+               "brand":"/api/v1/brand/55/",<br/>
+               "created_at":"2011-05-24T13:50:28",<br/>
+               "id":"1",<br/>
+               "is_archived":false,<br/>
+               "name":"Richard Blair",<br/>
+               "seriesdata":"/api/v1/brand/55/pod/1/seriesdata/",<br/>
+               "type":"twitter_profile",<br/>
+               "updated_at":"2011-06-21T10:18:07",<br/>
+               "uri":"http://twitter.com/richardlblair"<br/>
+            },<br/>
+            {<br/>
+               "active":true,<br/>
+               "brand":"/api/v1/brand/55/",<br/>
+               "created_at":"2011-06-08T14:09:03",<br/>
+               "id":"2",<br/>
+               "is_archived":false,<br/>
+               "name":"The SWIX Team",<br/>
+               "seriesdata":"/api/v1/brand/55/pod/2/seriesdata/",<br/>
+               "type":"twitter_profile",<br/>
+               "updated_at":"2011-06-21T10:18:17",<br/>
+               "uri":"http://twitter.com/swixhq"<br/>
+            },<br/>
+            {<br/>
+               "active":true,<br/>
+               "brand":"/api/v1/brand/55/",<br/>
+               "created_at":"2011-06-10T15:52:34",<br/>
+               "id":"3",<br/>
+               "is_archived":false,<br/>
+               "name":"Richard Blair",<br/>
+               "seriesdata":"/api/v1/brand/55/pod/3/seriesdata/",<br/>
+               "type":"facebook_profile",<br/>
+               "updated_at":"2011-06-10T15:52:34",<br/>
+               "uri":"example.com"<br/>
+            }<br/>
+         ]<br/>
+      },<br/>
+      {<br/>
+         "account":"/api/v1/account/19/",<br/>
+         "created_at":"2011-05-31T08:36:29",<br/>
+         "css":null,<br/>
+         "event":[],<br/>
+         "id":"56",<br/>
+         "logo":null,<br/>
+         "name":"R_Brand_1",<br/>
+         "pod":[]<br/>
+      },<br/>
+      {<br/>
+         "account":"/api/v1/account/19/",<br/>
+         "created_at":"2011-05-31T08:36:36",<br/>
+         "css":null,<br/>
+         "event":[],<br/>
+         "id":"57",<br/>
+         "logo":null,<br/>
+         "name":"R_Brand_2",<br/>
+         "pod":[]<br/>
+      },<br/>
+      {<br/>
+         "account":"/api/v1/account/19/",<br/>
+         "created_at":"2011-05-31T08:36:52",<br/>
+         "css":null,<br/>
+         "event":[],<br/>
+         "id":"58",<br/>
+         "logo":null,<br/>
+         "name":"R_Brand_3",<br/>
+         "pod":[]<br/>
+      }<br/>
+   ]<br/>
+}<br/>
 ```
 
 *returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.

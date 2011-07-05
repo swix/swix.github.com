@@ -108,10 +108,9 @@ brand - The brand the event belongs to.<br/>
 date - The date of the event.<br/>
 
 Example:<br/>
-<br/>
+/api/v1/brand/55/event/12/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```json
-```
+<script src="https://gist.github.com/1065072.js"> </script>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>
@@ -122,10 +121,9 @@ Response: List of Pods
 *returns* - The pods which are associated with the specified brand id.
 
 Example: <br/>
-<br/>
+/api/v1/brand/55/pod/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```json
-```
+<script src="https://gist.github.com/1065080.js"> </script>
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -145,6 +143,11 @@ active - Flag that tells you if this pod is active.<br/>
 type - This will indicate what type of pod this is. This will tell you which format seriesdata will be in.<br/>
 brand - The brand this pod belongs to.<br/>
 seriesdata - the URI to the series data for this pod<br/>
+
+Example:<br/>
+/api/v1/brand/55/pod/1/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1065096.js"> </script>
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**<br/>

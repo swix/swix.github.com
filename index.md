@@ -87,10 +87,9 @@ Response: List of Events
 *returns* - The events that are associated with the specified band id.
 
 Example: <br/>
-<br/>
+/api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<br/>
 
-```json
-```
+<script src="https://gist.github.com/1065059.js"> </script>
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>

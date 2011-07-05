@@ -51,10 +51,14 @@ Response: List of Brands
 Example:<br/>
 /api/v1/brand/?format=json&username=your_username&api_key=your_apikey<br/>
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```json
+{
+    "objects": [
+        {
+            "hello":"world",
+        }
+    ]
+}
 ```
 
 *returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.

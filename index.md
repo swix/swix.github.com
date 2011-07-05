@@ -410,6 +410,17 @@ Example:<br/>
 
 **fields**
 
+Use this query string parameter to specify the metrics you would like to retrieve. You specify the fields using a comma separated list. For instance, if you wanted only the number of followers on twitter you would do "fields=followers". Or perhaps you want followers and friends. To do so you would do "fields=followers,friends". If you specify fields that don't exist in the seriesdata you requested, you will receive an empty reply.
+
+Examples:<br/>
+Only followers:<br/>
+/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers<br/>
+<script src="https://gist.github.com/1065544.js"> </script>
+
+Only followers and friends:<br/>
+/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers,friends<br/>
+<script src="https://gist.github.com/1065554.js"> </script>
+
 **startdate**
 
 **enddate**

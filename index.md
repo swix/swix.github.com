@@ -7,7 +7,8 @@ layout: default
 SWIX's API allows you to access our system programmatically. Before you can acces the SWIX api you must first obtain an API key from us. 
 
 ##Query String
-**Format**
+**Format**<br/>
+Available Values: XML, JSON
 
 You may use the *format* parameter in all of your calls to the API. 
 
@@ -47,6 +48,136 @@ Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
 Response: List of Brands
 
+Example:<br/>
+/api/v1/brand/?format=json&username=your_username&api_key=your_apikey<br/>
+'''JSON
+{
+   "meta":{
+      "limit":20,
+      "next":null,
+      "offset":0,
+      "previous":null,
+      "total_count":4
+   },
+   "objects":[
+      {
+         "account":"/api/v1/account/19/",
+         "created_at":"2011-05-24T13:14:57",
+         "css":null,
+         "event":[
+            {
+               "brand":"/api/v1/brand/55/",
+               "created_at":"2011-05-31T08:37:16",
+               "date":"2011-06-09T00:00:00",
+               "deleted":false,
+               "id":"12",
+               "name":"Epic event"
+            },
+            {
+               "brand":"/api/v1/brand/55/",
+               "created_at":"2011-05-31T08:37:33",
+               "date":"2011-06-07T00:00:00",
+               "deleted":false,
+               "id":"13",
+               "name":"rguiriuhgreiouggreiugreiu"
+            },
+            {
+               "brand":"/api/v1/brand/55/",
+               "created_at":"2011-06-29T11:25:57",
+               "date":"2011-06-01T00:00:00",
+               "deleted":false,
+               "id":"27",
+               "name":"berbreberbe"
+            }
+         ],
+         "id":"55",
+         "logo":null,
+         "name":"Default Brand",
+         "pod":[
+            {
+               "active":true,
+               "brand":"/api/v1/brand/55/",
+               "created_at":"2011-05-24T13:50:28",
+               "id":"1",
+               "is_archived":false,
+               "name":"Richard Blair",
+               "seriesdata":"/api/v1/brand/55/pod/1/seriesdata/",
+               "type":"twitter_profile",
+               "updated_at":"2011-06-21T10:18:07",
+               "uri":"http://twitter.com/richardlblair"
+            },
+            {
+               "active":true,
+               "brand":"/api/v1/brand/55/",
+               "created_at":"2011-06-08T14:09:03",
+               "id":"2",
+               "is_archived":false,
+               "name":"The SWIX Team",
+               "seriesdata":"/api/v1/brand/55/pod/2/seriesdata/",
+               "type":"twitter_profile",
+               "updated_at":"2011-06-21T10:18:17",
+               "uri":"http://twitter.com/swixhq"
+            },
+            {
+               "active":true,
+               "brand":"/api/v1/brand/55/",
+               "created_at":"2011-06-10T15:52:34",
+               "id":"3",
+               "is_archived":false,
+               "name":"Richard Blair",
+               "seriesdata":"/api/v1/brand/55/pod/3/seriesdata/",
+               "type":"facebook_profile",
+               "updated_at":"2011-06-10T15:52:34",
+               "uri":"example.com"
+            }
+         ]
+      },
+      {
+         "account":"/api/v1/account/19/",
+         "created_at":"2011-05-31T08:36:29",
+         "css":null,
+         "event":[
+
+         ],
+         "id":"56",
+         "logo":null,
+         "name":"R_Brand_1",
+         "pod":[
+
+         ]
+      },
+      {
+         "account":"/api/v1/account/19/",
+         "created_at":"2011-05-31T08:36:36",
+         "css":null,
+         "event":[
+
+         ],
+         "id":"57",
+         "logo":null,
+         "name":"R_Brand_2",
+         "pod":[
+
+         ]
+      },
+      {
+         "account":"/api/v1/account/19/",
+         "created_at":"2011-05-31T08:36:52",
+         "css":null,
+         "event":[
+
+         ],
+         "id":"58",
+         "logo":null,
+         "name":"R_Brand_3",
+         "pod":[
+
+         ]
+      }
+   ]
+}
+'''
+
 *returns* - All the brands associated with your account. From here you will be able to get the necessary id's required to use the API calls listed below. Including brand id, event id, and pod id.
 
 **GET /api/v1/brand/{brand_id}/**<br/>
@@ -64,6 +195,8 @@ created_at - The date and time the band was created at, in the format of iso-860
 id - The id of the brand.<br/>
 logo - path to your logo.<br/>
 CSS -  path to your CSS.<br/>
+event - List of events that belong to the brand<br/>
+pod - List of pods that belong to the brand<br/>
 
 ##Event Resource
 **GET /api/v1/brand/{brand_id}/event/**<br/>
@@ -355,7 +488,10 @@ comments - Number of comments.<br/>
 
 ###Additional Parameters
 
-**graph**
+**graph**<br/>
+Available Values: highcharts
+
+
 
 **fields**
 

@@ -8,6 +8,7 @@ SWIX's API allows you to access our system programmatically. Before you can acce
 
 ##Query String
 **Format**<br/>
+Purpose: Allows you to specify the format the data is returned in.
 Available Values: XML, JSON
 
 You may use the *format* parameter in all of your calls to the API. 

@@ -8,7 +8,7 @@ SWIX's API allows you to access our system programmatically. Before you can acce
 
 ##Query String
 **Format**<br/>
-Purpose: Allows you to specify the format the data is returned in.
+Purpose: Allows you to specify the format the data is returned in.<br/>
 Available Values: XML, JSON
 
 You may use the *format* parameter in all of your calls to the API. 
@@ -22,6 +22,7 @@ For XML formatting:
 [http://swixapp.com/api/v1/brand/?format=xml](http://swixapp.com/api/v1/brand/?format=xml)
 
 **API Key**
+Purpose: Allows you to authenticate.
 
 For the read only API we are using API Key authentication. API Key authentication requires you to provide your *API Key* and *User Name* in the query string. 
 

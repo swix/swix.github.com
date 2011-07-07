@@ -165,8 +165,8 @@ The data in the series data is pretty much a count, for that metric, on the day 
 *twitter*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 followers - Count of twitter followers.<br/>
 listed - Count of places you are listed<br/>
 friends - Count of friends.<br/>
@@ -182,16 +182,16 @@ Also, please note there are more examples below that demonstrate the use the opt
 *facebook*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 friends - Count of facebook friends.<br/>
 wallposts - Count of wallposts.<br/>
 
 *Blog*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 subscribers - Count of subscribers to your blog.<br/>
 reach - You total reach.<br/>
 hits - Number of hits.<br/>
@@ -199,8 +199,8 @@ hits - Number of hits.<br/>
 *Google Analytics*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 newvisits - Total number of new visits.<br/>
 visits - Total number of visits<br/>
 pageviews - Total number of page views.<br/>
@@ -209,31 +209,31 @@ uniquepageviews - Total number of unique page views.<br/>
 *Youtube Channel*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 subscribers - Total number of subscribers.<br/>
 views - Total number of views.<br/>
 
 *Youtube Video*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 views - Total number of views on your youtube video.<br/>
 favorited - Total number of times your video was favorited.<br/>
 
 *Facebook Group*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 members - Number of members in your facebook group.<br/>
 
 *Facebook App*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 monthly_active_users - Total number of active monthly users for your app.<br/>
 weekly_active_users - Total number of active weekly users for your app.<br/>
 daily_active_users - Total number of active daily users for your app.<br/>
@@ -241,15 +241,15 @@ daily_active_users - Total number of active daily users for your app.<br/>
 *Facebook Page*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 fans - Total number of facebook fans.<br/>
 
 *Flickr User*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 photos - Number of photos.<br/>
 groups - Number of groups.<br/>
 contacts - Number of contacts.<br/>
@@ -257,22 +257,22 @@ contacts - Number of contacts.<br/>
 *Flickr Group*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 members - <br/>
 
 *Flickr Set*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 comments - Number of comments.<br/>
 
 *Identica Profile*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 followers - Number of followers.<br/>
 friends - Number of friends.<br/>
 statuses - Number of statuses.<br/>
@@ -280,46 +280,46 @@ statuses - Number of statuses.<br/>
 *Linkedin Profiles*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 connections - Total number of connections.<br/>
 recommendations - Total number of recommendations.<br/>
 
 *Delicious Url*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 bookmark - Number of bookmarks<br/>
 
 *Stumbleupon Url*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 reviews - Number of reviews<br/>
 rating - Number of Ratings<br/>
 
 *Mybloglog Community*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 members - Number of members.<br/>
 
 *Upcoming Event*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 attending - <br/>
 interested - <br/>
 
 *Metacafe Channel*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 views - <br/>
 rank - <br/>
 subscribers - <br/>
@@ -328,8 +328,8 @@ videos - <br/>
 *Metacafe Video*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 views - Number of views.<br/>
 rank - Total rank.<br/>
 comments - Number of comments.<br/>
@@ -337,8 +337,8 @@ comments - Number of comments.<br/>
 *Meetup Group*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 members - Number of members.<br/>
 events - Number of events.<br/>
 rating - Total rating.<br/>
@@ -346,23 +346,23 @@ rating - Total rating.<br/>
 *Meetup Event*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 rsvp - Number of RSVP.<br/>
 
 *Myspace Profile*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 friends - Number of friends.<br/>
 comments - Number of comments.<br/>
 
 *Vimeo Video*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 plays - Number of times a video is played.<br/>
 comments - Number of comments.<br/>
 rating - Total rating.<br/>
@@ -370,16 +370,16 @@ rating - Total rating.<br/>
 *Vimeo Channel*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 subscribers - Total number of subscribers.<br/>
 videos - Total videos.<br/>
 
 *Vimeo Group*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 members - Number of members.<br/>
 videos - Number of videos.<br/>
 topics - Number of topics.<br/>
@@ -388,8 +388,8 @@ events - Number of events.<br/>
 *Digg Url*
 
 id - Series Data ID.<br/>
-measured_at - Date measured at.<br/>
-updated_at - Date and Time the data was updated at.<br/>
+measured_at - Date measured at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-08T13:50:28<br/>
+updated_at - Date and Time the data was updated at. Appears in the format YYYY-MM-DD"T"HH:MM:SS. Example: 2011-04-12T13:50:28<br/>
 diggs - Number of diggs.<br/>
 stories - Number of stories.<br/>
 comments - Number of comments.<br/>

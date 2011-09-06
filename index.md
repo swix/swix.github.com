@@ -73,7 +73,9 @@ id - The id of the brand.<br/>
 logo - path to your logo.<br/>
 CSS -  path to your CSS.<br/>
 event - List of events that belong to the brand<br/>
+**Upcoming Change** events - URL to the Event Resource which lists the events that belong to the brand<br/>
 pod - List of pods that belong to the brand<br/>
+**Upcoming Change** pods - URL to the Pod Resource which lists the pods that belong to the brand<br/>
 
 Example:<br/>
 /api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey<br/>
@@ -107,6 +109,7 @@ deleted - Flag that indicates whether the event is deleted.<br/>
 created_at - Date the event was created.<br/>
 id - The id of the Event.<br/>
 brand - The brand the event belongs to.<br/>
+**Upcoming Change** brand - URL to the brand which owns the event.<br/>
 date - The date of the event.<br/>
 
 Example:<br/>
@@ -138,13 +141,14 @@ Response: A Pod
 
 name - Pod name<br/>
 created_at - Date pod was created.<br/>
-uri - URI to the resource this pod uses.<br/>
+uri - URL to the resource this pod uses.<br/>
 updated_at - Date pod was updated<br/>
 id - The id of the pod.<br/>
 active - Flag that tells you if this pod is active.<br/>
 type - This will indicate what type of pod this is. This will tell you which format seriesdata will be in.<br/>
 brand - The brand this pod belongs to.<br/>
-seriesdata - the URI to the series data for this pod<br/>
+**Upcoming Change** brand - URL to the brand which owns the event.<br/>
+seriesdata - the URL to the series data for this pod<br/>
 
 Example:<br/>
 /api/v1/brand/55/pod/1/?format=json&username=your_username&api_key=your_apikey<br/>

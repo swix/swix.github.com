@@ -6,6 +6,19 @@ layout: default
 #Introduction to SWIX's REST Api
 SWIX's API allows you to access our system programmatically. Before you can acces the SWIX api you must first obtain an API key from us. 
 
+**Upcoming Changes**<br/>
+Before we outline our upcoming changes we want to thank you for your support while we develop our API. Version 1 is almost complete and 
+we have made a few changes with you in mind.
+
+Throughout the document we have now put a note underneath any field that is going to change. That being said the most significant change
+we have made is in regard to 'related resources'. A related resource is just a field in a resource which points to a different resource.
+For example, in the Brand Resource there is a field called 'pod' which points to a Pod Resouse.
+
+Currently when you request a resource, we gather and return all the related resource's data with it. This approach seemed appropriate at first
+but this has added significant over head and increased the time it takes for us to respond to a request. Once we deploy our changes later
+this month this behavior will change. Going forward when you request a resource instead of getting all the related resource's data, you will 
+get the url to the related resource.
+
 ##Query String
 **Format**<br/>
 Purpose: Allows you to specify the format the data is returned in.<br/>

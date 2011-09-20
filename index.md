@@ -139,6 +139,11 @@ Response: List of Offers
 
 *returns* - The offers which are assocaited with the specified offer id.
 
+Example:<br/>
+/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1229878.js"> </script>
+
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
@@ -173,6 +178,39 @@ Example:<br/>
 /api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<br/>
 
 <script src="https://gist.github.com/1229870.js"> </script>
+
+##Offer Transaction Resource
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format<br/>
+Response: List of Offer Transactions
+
+**returns** - A list of Offer Transactions that belong to the given offer id.
+
+Example:<br/>
+/api/v1/brand/55/offer/17/offertransaction/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1229944.js"> </script>
+
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/{offertransaction_id}/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format<br/>
+Response: An Offer Transaction
+
+**returns** - The Offer Transaction specified by the offertransaction_id parameter.
+
+**Fields**
+
+referrer - Where the sale came from. (i.e Twitter, Facebook, ect.)<br/>
+created_at - When the transaction took place.<br/>
+offer - URL to the offer the transaction belongs to.<br/>
+id - ID of the transaction.<br/>
+amount_in_cents - Transaction amount in cents.<br/>
+
+Example:<br/>
+/api/v1/brand/55/offer/17/offertransaction/20/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1229948.js"> </script>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>

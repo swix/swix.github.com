@@ -212,6 +212,24 @@ Example:<br/>
 
 <script src="https://gist.github.com/1229948.js"> </script>
 
+##Click Data Resource
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/clickdata/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format, graph, startdate, enddate<br/>
+Response: Click data.
+
+**returns** - A compiled list of the click data, from various reffers.
+
+**Fields**
+
+clicks - Number of clicks.
+measured_at - The date the clicks happened on.
+
+Example:<br/>
+/api/v1/brand/55/offer/17/clickdata/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1230281.js"> </script>
+
 ##Revenue By Day Resource
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/revenuebyday/**
 Required Parameters: api_key, username<br/>

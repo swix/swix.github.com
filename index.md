@@ -107,9 +107,7 @@ Response: List of Events
 Example: <br/>
 /api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<br/>
 
-<div id="gist-container" style="max-height: 300px">
 <script src="https://gist.github.com/1065059.js"> </script>
-</div>
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -214,6 +212,24 @@ Example:<br/>
 
 <script src="https://gist.github.com/1229948.js"> </script>
 
+##Revenue By Day Resource
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/revenuebyday/**
+Required Parameters: api_key, username<br/>
+Optional Parameters: format, graph, startdate, enddate<br/>
+Response: A compiled list of the total revenue by day.
+
+**returns** - A compiled list of revenue earned, by day for the given offer.
+
+**Fields**
+
+sales - Amount of sales in dollars.
+measured_at - The date for the sales.
+
+Example:<br/>
+/api/v1/brand/55/offer/17/revenuebyday/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1230026.js"> </script>
+
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>
 Required Parameters: api_key, username<br/>
@@ -278,9 +294,7 @@ This example gives you an idea of what to expect from twitter series data. Howev
 Also, please note there are more examples below that demonstrate the use the optional query string parameters.
 /api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey<br/>
 
-<div id="gist-container" style="max-height: 300px">
 <script src="https://gist.github.com/1065305.js"> </script>
-</div>
 
 *facebook*
 

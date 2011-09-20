@@ -89,6 +89,7 @@ event - List of events that belong to the brand<br/>
 **Upcoming Change** events - URL to the Event Resource which lists the events that belong to the brand<br/>
 pod - List of pods that belong to the brand<br/>
 **Upcoming Change** pods - URL to the Pod Resource which lists the pods that belong to the brand<br/>
+**Upcoming Chane** offers - URL to the Offer Resource which lists the offers that belong to the brand<br/>
 
 Example:<br/>
 /api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey<br/>
@@ -129,6 +130,49 @@ Example:<br/>
 /api/v1/brand/55/event/12/?format=json&username=your_username&api_key=your_apikey<br/>
 
 <script src="https://gist.github.com/1065072.js"> </script>
+
+##Offer Resource
+**GET /api/v1/brand/{brand_id}/offer/**<br/>
+Required Parameters: api_key, username<br/>
+Optional Parameters: format<br/>
+Response: List of Offers
+
+*returns* - The offers which are assocaited with the specified offer id.
+
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/**<br/>
+Required Parameters: api_key, username<br/>
+Optional Parameters: format<br/>
+Response: An Offer
+
+*returns* - The offer which is specified by the offer_id parameter.
+
+**Fields**
+
+landing_page - The page the offer is on. The short url will point to this URL.<br/>
+conversion - URL to the Conversion Resource which lists the conversions by date.<br/>
+name - Name of the Offer.<br/>
+end_date - The date the offer is scheduled to end.<br/>
+roi - The calculated return on investment. 'N/A' if this field does not apply.<br/>
+short_url - The short URL which will redirect a user to the landing page.<br/>
+brand - The URL to the Brand Resource which this offer belongs to.<br/>
+updated_at - When the resource was last updated.<br/>
+start_date - The start date of the offer.<br/>
+total_revenue - Total revenue this campaign has given you.<br/>
+conversions - The total number of conversions this offer has given you.<br/>
+default_value_in_cents - The default value of each sale, in cents.<br/>
+activity_name - The name of the activity.<br/>
+initial_cost_in_cents - The upfront consts of the offer.<br/>
+click_data - URL to the Click Data Resource.<br/>
+created_at - Date the offer was created.<br/>
+offer_transactions - URL to the Offer Transaction Resource.<br/>
+type - Type of offer, Either 'Sales' or 'Activity'.<br/>
+id - ID of the offer.<br/>
+revenue_by_day - URL to the Revenue By Day Resource.<br/>
+
+Example:<br/>
+/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<script src="https://gist.github.com/1229870.js"> </script>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>

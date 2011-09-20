@@ -107,7 +107,9 @@ Response: List of Events
 Example: <br/>
 /api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<br/>
 
+<div id="gist-container" style="max-height: 300px">
 <script src="https://gist.github.com/1065059.js"> </script>
+</div>
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -276,7 +278,9 @@ This example gives you an idea of what to expect from twitter series data. Howev
 Also, please note there are more examples below that demonstrate the use the optional query string parameters.
 /api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey<br/>
 
+<div id="gist-container" style="max-height: 300px">
 <script src="https://gist.github.com/1065305.js"> </script>
+</div>
 
 *facebook*
 

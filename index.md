@@ -92,7 +92,8 @@ pod - List of pods that belong to the brand<br/>
 **Upcoming Chane** offers - URL to the Offer Resource which lists the offers that belong to the brand<br/>
 
 <div id='gist_data'>
-<h3>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey<h3/>
+<h3>Example:</h3>
+<p>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey</p>
 <script src="https://gist.github.com/1065046.js"> </script>
 </div>
 

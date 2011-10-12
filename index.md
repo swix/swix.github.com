@@ -636,6 +636,8 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 </div>
 <script type="text/javascript">
 jQuery(document).ready(function() {
+  $(":nth-child(1)").nextAll(".gist").hide()
+
   jQuery(".hide-button").click(function(event)
   {
     if( jQuery(this).text()  == 'Hide' )

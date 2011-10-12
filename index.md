@@ -583,4 +583,5 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 /api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-31&startdate=2011-05-01&graph=highcharts&fields=followers<br/>
 <script src="https://gist.github.com/1065749.js"> </script>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
+</script>

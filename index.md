@@ -585,9 +585,10 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 <script src="https://gist.github.com/1065749.js"> </script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
-  jQuery("#hide-button").click(function()
+  jQuery("#hide-button").click(function(event)
   {
     jQuery(this).next(".gist-highlight").slideToggle(20);
+    event.stopPropagation();
   });
 });
 </script>

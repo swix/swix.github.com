@@ -587,7 +587,7 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 jQuery(document).ready(function() {
   jQuery(".hide-button").click(function(event)
   {
-    jQuery(this).next(".gist-highlight").style.height(0);
+    jQuery(this).next(".gist-highlight").css.('display: none');
     return false;
   });
 });

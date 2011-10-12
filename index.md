@@ -136,10 +136,12 @@ brand - The brand the event belongs to.<br/>
 **Upcoming Change** brand - URL to the brand which owns the event.<br/>
 date - The date of the event.<br/>
 
-Example:<br/>
-/api/v1/brand/55/event/12/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/event/12/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065072.js"> </script>
+</div>
 
 ##Offer Resource
 **GET /api/v1/brand/{brand_id}/offer/**<br/>
@@ -149,10 +151,12 @@ Response: List of Offers
 
 *returns* - The offers which are assocaited with the specified offer id.
 
-Example:<br/>
-/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1229878.js"> </script>
+</div>
 
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -184,10 +188,12 @@ type - Type of offer, Either 'Sales' or 'Activity'.<br/>
 id - ID of the offer.<br/>
 revenue_by_day - URL to the Revenue By Day Resource.<br/>
 
-Example:<br/>
-/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1229870.js"> </script>
+</div>
 
 ##Offer Transaction Resource
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/**
@@ -197,10 +203,12 @@ Response: List of Offer Transactions
 
 **returns** - A list of Offer Transactions that belong to the given offer id.
 
-Example:<br/>
-/api/v1/brand/55/offer/17/offertransaction/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/offertransaction/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1229944.js"> </script>
+</div>
 
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/{offertransaction_id}/**
 Required Parameters: api_key, username<br/>
@@ -217,10 +225,12 @@ offer - URL to the offer the transaction belongs to.<br/>
 id - ID of the transaction.<br/>
 amount_in_cents - Transaction amount in cents.<br/>
 
-Example:<br/>
-/api/v1/brand/55/offer/17/offertransaction/20/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/offertransaction/20/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1229948.js"> </script>
+</div>
 
 ##Click Data Resource
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/clickdata/**

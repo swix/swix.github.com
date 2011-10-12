@@ -588,7 +588,7 @@ jQuery(document).ready(function() {
   jQuery(".hide-button").click(function(event)
   {
     var obj = jQuery(this).next(".gist-highlight");
-    jQuery(this).next(".gist-highlight").css.height(0);
+    jQuery(this).next(".gist-highlight").height(0);
     return false;
   });
 });

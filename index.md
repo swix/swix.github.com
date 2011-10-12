@@ -588,8 +588,7 @@ jQuery(document).ready(function() {
   jQuery(".hide-button").click(function(event)
   {
     var obj = jQuery('#gist-head').find(".gist");
-    alert(obj);
-    obj.hide();
+    obj.css('display: none');
     return false;
   });
 });

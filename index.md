@@ -592,13 +592,13 @@ jQuery(document).ready(function() {
     {
       var obj = jQuery(this).closest('.gist_data').find(".gist");
       obj.hide();
-      src.text = 'Show';
+      src.text('Show');
     }
     else
     {
       var obj = jQuery(this).closest('.gist_data').find(".gist");
       obj.show();
-      src.text = 'Hide';
+      src.text('Hide');
     }
     return false;
   });

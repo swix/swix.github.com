@@ -245,10 +245,12 @@ Response: Click data.
 clicks - Number of clicks.
 measured_at - The date the clicks happened on.
 
-Example:<br/>
-/api/v1/brand/55/offer/17/clickdata/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/clickdata/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1230281.js"> </script>
+</div>
 
 ##Revenue By Day Resource
 **GET /api/v1/brand/{brand_id}/offer/{offer_id}/revenuebyday/**
@@ -263,10 +265,12 @@ Response: A compiled list of the total revenue by day.
 sales - Amount of sales in dollars.
 measured_at - The date for the sales.
 
-Example:<br/>
-/api/v1/brand/55/offer/17/revenuebyday/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/revenuebyday/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1230026.js"> </script>
+</div>
 
 ##Pod Resource
 **GET /api/v1/brand/{brand_id}/pod/**<br/>
@@ -279,7 +283,12 @@ Response: List of Pods
 Example: <br/>
 /api/v1/brand/55/pod/?format=json&username=your_username&api_key=your_apikey<br/>
 
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065080.js"> </script>
+</div>
 
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -301,10 +310,12 @@ brand - The brand this pod belongs to.<br/>
 **Upcoming Change** brand - URL to the brand which owns the event.<br/>
 seriesdata - the URL to the series data for this pod<br/>
 
-Example:<br/>
-/api/v1/brand/55/pod/1/?format=json&username=your_username&api_key=your_apikey<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065096.js"> </script>
+</div>
 
 ##Series Data Resource
 **GET /api/v1/brand/{brand_id}/pod/{pod_id}/seriesdata/**<br/>
@@ -332,7 +343,12 @@ This example gives you an idea of what to expect from twitter series data. Howev
 Also, please note there are more examples below that demonstrate the use the optional query string parameters.
 /api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey<br/>
 
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong><a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065305.js"> </script>
+</div>
 
 *facebook*
 

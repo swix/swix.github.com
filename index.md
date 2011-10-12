@@ -92,7 +92,7 @@ pod - List of pods that belong to the brand<br/>
 **Upcoming Change** pods - URL to the Pod Resource which lists the pods that belong to the brand<br/>
 **Upcoming Chane** offers - URL to the Offer Resource which lists the offers that belong to the brand<br/>
 
-<div id='gist_data'>
+<div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
 <p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Hide</a></p>
 </div>
@@ -587,7 +587,7 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 jQuery(document).ready(function() {
   jQuery(".hide-button").click(function(event)
   {
-    var obj = jQuery(this).parent().find(".gist");
+    var obj = jQuery(this).closest('.gist_data').find(".gist");
     obj.css('display: none');
     return false;
   });

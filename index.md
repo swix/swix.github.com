@@ -628,8 +628,12 @@ This query string parameter allows you to specify the end date for the date rang
 
 Lets say we want to graph the number of followers we have, from the seriesdata that belongs to pod 1 for the month of May. We would use the following url:
 
-/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-31&startdate=2011-05-01&graph=highcharts&fields=followers<br/>
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-31&startdate=2011-05-01&graph=highcharts&fields=followers<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065749.js"> </script>
+</div>
 <script type="text/javascript">
 jQuery(document).ready(function() {
   jQuery(".hide-button").click(function(event)

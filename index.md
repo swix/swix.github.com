@@ -71,7 +71,7 @@ Example:<br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065033.js"> </script>
 </div>
@@ -99,7 +99,7 @@ pod - List of pods that belong to the brand<br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065046.js"> </script>
 </div>
@@ -114,7 +114,7 @@ Response: List of Events
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065059.js"> </script>
 </div>
@@ -138,7 +138,7 @@ date - The date of the event.<br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/event/12/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/event/12/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065072.js"> </script>
 </div>
@@ -153,7 +153,7 @@ Response: List of Offers
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1229878.js"> </script>
 </div>
@@ -190,7 +190,7 @@ revenue_by_day - URL to the Revenue By Day Resource.<br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1229870.js"> </script>
 </div>
@@ -205,7 +205,7 @@ Response: List of Offer Transactions
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/offertransaction/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/offertransaction/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1229944.js"> </script>
 </div>
@@ -227,7 +227,7 @@ amount_in_cents - Transaction amount in cents.<br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/offertransaction/20/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/offertransaction/20/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1229948.js"> </script>
 </div>
@@ -247,7 +247,7 @@ measured_at - The date the clicks happened on.
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/clickdata/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/clickdata/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1230281.js"> </script>
 </div>
@@ -267,7 +267,7 @@ measured_at - The date for the sales.
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/revenuebyday/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/offer/17/revenuebyday/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1230026.js"> </script>
 </div>
@@ -285,7 +285,7 @@ Example: <br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065080.js"> </script>
 </div>
@@ -312,7 +312,7 @@ seriesdata - the URL to the series data for this pod<br/>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/?format=json&username=your_username&api_key=your_apikey<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065096.js"> </script>
 </div>
@@ -579,7 +579,7 @@ We return the JSON that you would assign to the "data" portion of the graph opti
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&graph=highcharts<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&graph=highcharts<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065423.js"> </script>
 </div>
@@ -590,14 +590,14 @@ Use this query string parameter to specify the metrics you would like to retriev
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065544.js"> </script>
 </div>
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers,friends<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers,friends<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065554.js"> </script>
 </div>
@@ -608,7 +608,7 @@ This query string parameter allows you to specify the start date for the date ra
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&startdate=2011-05-15<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&startdate=2011-05-15<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065659.js"> </script>
 </div>
@@ -619,7 +619,7 @@ This query string parameter allows you to specify the end date for the date rang
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-20 <a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-20 <a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065683.js"> </script>
 </div>
@@ -630,7 +630,7 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-31&startdate=2011-05-01&graph=highcharts&fields=followers<a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-31&startdate=2011-05-01&graph=highcharts&fields=followers<a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065749.js"> </script>
 </div>

@@ -345,7 +345,7 @@ Also, please note there are more examples below that demonstrate the use the opt
 
 <div class='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong><a href="#" class="hide-button" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong><a href="#" class="hide-button" style="float: right">Show</a></p>
 </div>
 <script src="https://gist.github.com/1065305.js"> </script>
 </div>

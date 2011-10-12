@@ -577,38 +577,52 @@ For more information checkout Highchart's website http://www.highcharts.com/.
 Notes about the format:
 We return the JSON that you would assign to the "data" portion of the graph options. In the data field, we have a list of values, [Date, Count]. The date field is stored in epoch format, the second field is the metric specified in the "name" fields.
 
-Example:<br/>
-/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&graph=highcharts<br/>
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&graph=highcharts<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065423.js"> </script>
+</div>
 
 **fields**
 
 Use this query string parameter to specify the metrics you would like to retrieve. You specify the fields using a comma separated list. For instance, if you wanted only the number of followers on twitter you would do "fields=followers". Or perhaps you want followers and friends. To do so you would do "fields=followers,friends". If you specify fields that don't exist in the seriesdata you requested, you will receive an empty reply.
 
-Examples:<br/>
-Only followers:<br/>
-/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers<br/>
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065544.js"> </script>
+</div>
 
-Only followers and friends:<br/>
-/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers,friends<br/>
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&fields=followers,friends<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065554.js"> </script>
+</div>
 
 **startdate**
 
 This query string parameter allows you to specify the start date for the date range used to retrieve the seriesdata. The format of the date needs to be YYYY-MM-DD.
 
-Example:<br/>
-/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&startdate=2011-05-15<br/>
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&startdate=2011-05-15<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065659.js"> </script>
+</div>
 
 **enddate**
 
 This query string parameter allows you to specify the end date for the date range used to retrieve the seriesdata. The format of the date needs to be YYYY-MM-DD.
 
-Example:<br/>
-api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-20<br/>
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>api/v1/brand/55/pod/1/seriesdata/?format=json&username=your_username&api_key=your_apikey&enddate=2011-05-20 <a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065683.js"> </script>
+</div>
 
 **Putting it together**
 

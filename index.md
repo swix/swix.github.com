@@ -94,7 +94,7 @@ pod - List of pods that belong to the brand<br/>
 
 <div id='gist_data'>
 <div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
-<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey <a href="#" style="float: right">Hide</a></p>
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/?format=json&username=your_username&api_key=your_apikey <a href="#" id="hide-button" style="float: right">Hide</a></p>
 </div>
 <script src="https://gist.github.com/1065046.js"> </script>
 </div>

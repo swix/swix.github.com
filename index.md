@@ -69,7 +69,12 @@ Response: List of Brands
 Example:<br/>
 /api/v1/brand/?format=json&username=your_username&api_key=your_apikey<br/>
 
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065033.js"> </script>
+</div>
 
 **GET /api/v1/brand/{brand_id}/**<br/>
 Required Parameters: api_key, username<br/>
@@ -107,10 +112,12 @@ Response: List of Events
 
 *returns* - The events that are associated with the specified band id.
 
-Example: <br/>
-/api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<br/>
-
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/brand/55/event/?format=json&username=your_username&api_key=your_password<a href="#" class="hide-button" style="float: right">Hide</a></p>
+</div>
 <script src="https://gist.github.com/1065059.js"> </script>
+</div>
 
 **GET /api/v1/brand/{brand_id}/event/{event_id}/**<br/>
 Required Parameters: api_key, username<br/>

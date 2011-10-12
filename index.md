@@ -587,18 +587,17 @@ Lets say we want to graph the number of followers we have, from the seriesdata t
 jQuery(document).ready(function() {
   jQuery(".hide-button").click(function(event)
   {
-    var src = event.srcElement;
-    if( src.text == 'Hide' )
+    if( jQuery(this).text()  == 'Hide' )
     {
       var obj = jQuery(this).closest('.gist_data').find(".gist");
       obj.hide();
-      src.text('Show');
+      jQuery(this).text('Show');
     }
     else
     {
       var obj = jQuery(this).closest('.gist_data').find(".gist");
       obj.show();
-      src.text('Hide');
+      jQuery(this).text('Hide');
     }
     return false;
   });

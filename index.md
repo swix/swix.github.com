@@ -54,22 +54,22 @@ Response: Account Details
 *returns* - All the details assocaited with an account.
 
 **Fields**
-analytics_css - The url to the custom CSS used for Swix Analytics, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.
-analytics_domain - The domain used for Swix Analyticss, if one is used and if the account has white labeling.
-marketing_css - The url to the custom CSS used for Campaign Manager, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.
-marketing_domain - The domain used for Campaign Manager, if one is used and if the account has white labeling.
-shortener_domain - The domain used for the URL shortener, if one is used, and if the account has white labeling.
-facebook_iframe - Use this URL in an iframe to create a Facebook oauth token for swix for this account.
-linkedin_iframe - Use this URL in an iframe to create a Linkedin oauth token for swix for this account.
-oauthtokens - The end point to view the full list of oauth tokens created for this account.
-userprofiles - The end point to view the user profiles assocaited with this account.
-owner - An object describing the owner of the account.
-owner/email - The e-mail address tied to the account.
-owner/first_name - The first name of the account owner.
-owner/last_name - The last name of the account owner.
-owner/username - The user for the account.
-owner/date_joined - The date the account was created.
-owner/last_login - The date the account was last logged into.
+analytics_css - The url to the custom CSS used for Swix Analytics, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.<br/>
+analytics_domain - The domain used for Swix Analyticss, if one is used and if the account has white labeling.<br/>
+marketing_css - The url to the custom CSS used for Campaign Manager, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.<br/>
+marketing_domain - The domain used for Campaign Manager, if one is used and if the account has white labeling.<br/>
+shortener_domain - The domain used for the URL shortener, if one is used, and if the account has white labeling.<br/>
+facebook_iframe - Use this URL in an iframe to create a Facebook oauth token for swix for this account.<br/>
+linkedin_iframe - Use this URL in an iframe to create a Linkedin oauth token for swix for this account.<br/>
+oauthtokens - The end point to view the full list of oauth tokens created for this account.<br/>
+userprofiles - The end point to view the user profiles assocaited with this account.<br/>
+owner - An object describing the owner of the account.<br/>
+owner/email - The e-mail address tied to the account.<br/>
+owner/first_name - The first name of the account owner.<br/>
+owner/last_name - The last name of the account owner.<br/>
+owner/username - The user for the account.<br/>
+owner/date_joined - The date the account was created.<br/>
+owner/last_login - The date the account was last logged into.<br/>
 
 Example:<br/>
 /api/v1/account/?format=json&username=your_username&api_key=your_apikey<br/>

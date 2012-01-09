@@ -45,6 +45,42 @@ Status Code 410 - You have requested a resource that does not exist. For instanc
 
 Status Code 500 - Something went wrong on our end and we were not able to get the resource you requested.
 
+##Account Resources
+**GET /api/v1/account/**<br/>
+Required Parameters: api_key, username<br/>
+Optional Parameters: format<br/>
+Response: Account Details
+
+*returns* - All the details assocaited with an account.
+
+**Fields**
+analytics_css - The url to the custom CSS used for Swix Analytics, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.
+analytics_domain - The domain used for Swix Analyticss, if one is used and if the account has white labeling.
+marketing_css - The url to the custom CSS used for Campaign Manager, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.
+marketing_domain - The domain used for Campaign Manager, if one is used and if the account has white labeling.
+shortener_domain - The domain used for the URL shortener, if one is used, and if the account has white labeling.
+facebook_iframe - Use this URL in an iframe to create a Facebook oauth token for swix for this account.
+linkedin_iframe - Use this URL in an iframe to create a Linkedin oauth token for swix for this account.
+oauthtokens - The end point to view the full list of oauth tokens created for this account.
+userprofiles - The end point to view the user profiles assocaited with this account.
+owner - An object describing the owner of the account.
+owner/email - The e-mail address tied to the account.
+owner/first_name - The first name of the account owner.
+owner/last_name - The last name of the account owner.
+owner/username - The user for the account.
+owner/date_joined - The date the account was created.
+owner/last_login - The date the account was last logged into.
+
+Example:<br/>
+/api/v1/account/?format=json&username=your_username&api_key=your_apikey<br/>
+
+<div class='gist_data'>
+<div id='gist_head' style="padding: .5em;background-color: #EAEAEA;border: 1px solid #DEDEDE;">
+<p style="margin: 0px;"><strong>Example: </strong>/api/v1/account/?format=json&username=your_username&api_key=your_apikey <a href="#" class="hide-button" style="float: right">Show</a></p>
+</div>
+<script src="https://gist.github.com/1584340.js"> </script>
+</div>
+
 ##Brand Resources
 **GET /api/v1/brand/**<br/>
 Required Parameters: api_key, username<br/>

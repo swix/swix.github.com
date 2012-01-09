@@ -53,7 +53,7 @@ Response: Account Details
 
 *returns* - All the details assocaited with an account.
 
-**Fields**
+**Fields**<br/>
 analytics_css - The url to the custom CSS used for Swix Analytics, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.<br/>
 analytics_domain - The domain used for Swix Analyticss, if one is used and if the account has white labeling.<br/>
 marketing_css - The url to the custom CSS used for Campaign Manager, if one is used and if the account has white labeling. Prefix with 'swixapp.com'.<br/>

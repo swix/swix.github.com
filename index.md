@@ -219,7 +219,7 @@ revenue_by_day - URL to the Revenue By Day Resource.<br/>
 </div>
 
 ##Offer Transaction Resource
-**GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/**
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
 Response: List of Offer Transactions

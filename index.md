@@ -233,7 +233,7 @@ Response: List of Offer Transactions
 <script src="https://gist.github.com/1229944.js"> </script>
 </div>
 
-**GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/{offertransaction_id}/**
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/offertransaction/{offertransaction_id}/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format<br/>
 Response: An Offer Transaction
@@ -256,7 +256,7 @@ amount_in_cents - Transaction amount in cents.<br/>
 </div>
 
 ##Click Data Resource
-**GET /api/v1/brand/{brand_id}/offer/{offer_id}/clickdata/**
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/clickdata/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format, graph, startdate, enddate<br/>
 Response: Click data.
@@ -276,7 +276,7 @@ measured_at - The date the clicks happened on.
 </div>
 
 ##Revenue By Day Resource
-**GET /api/v1/brand/{brand_id}/offer/{offer_id}/revenuebyday/**
+**GET /api/v1/brand/{brand_id}/offer/{offer_id}/revenuebyday/**<br/>
 Required Parameters: api_key, username<br/>
 Optional Parameters: format, graph, startdate, enddate<br/>
 Response: A compiled list of the total revenue by day.
